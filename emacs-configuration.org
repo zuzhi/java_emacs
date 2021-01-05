@@ -11,9 +11,9 @@ In the following code block, we will initialize package repositories and after t
  #+BEGIN_SRC emacs-lisp
  (require 'package)
 
- (setq package-archives '(("melpa" . "https://melpa.org/packages/")
-                          ("elpa" . "https://elpa.gnu.org/packages/")
-			  ("org" . "https://orgmode.org/elpa/")
+ (setq package-archives '(("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+                          ("elpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+			  ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
  ))
 
 
